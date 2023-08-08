@@ -7,6 +7,9 @@ import product6 from "./assets/products/product-6.jpg";
 import product7 from "./assets/products/product-7.jpg";
 import product8 from "./assets/products/product-8.jpg";
 import product9 from "./assets/products/product-9.png"; 
+import product10 from "./assets/products/product-10.png"; 
+import product11 from "./assets/products/product-11.png";
+import product12 from "./assets/products/product-12.png";  
 
 export const PRODUCTS = [
   {
@@ -62,6 +65,24 @@ export const PRODUCTS = [
     productName: "Mobile Holder",
     price: 199.0,
     productImage: product9,
+  },
+  {
+    id: 10,
+    productName: "Notebook Bottle",
+    price: 199.0,
+    productImage: product10,
+  },
+  {
+    id: 11,
+    productName: "Storage Container",
+    price: 199.0,
+    productImage: product11,
+  },
+  {
+    id: 12,
+    productName: "Liquid Dispenser",
+    price: 199.0,
+    productImage: product12,
   }
 
 ];

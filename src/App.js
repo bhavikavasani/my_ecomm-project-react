@@ -1,5 +1,6 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route , Link } from "react-router-dom";
+
 import { Navbar } from "./components/navbar";
 import { Shop } from "./pages/shop/shop";
 import { Contact } from "./pages/contact";
@@ -21,13 +22,13 @@ function App() {
           </Routes>
           <footer>
             <p>Created by Bhavika Vasani</p>
-            <a href="#">
+            <Link to="https://github.com/bhavikavasani/my_ecomm-project-react" >
             <img className="github-logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" />
-            </a>
-          </footer>
-        </Router>
-      </ShopContextProvider>
-    </div>
+          </Link>
+        </footer>
+      </Router>
+    </ShopContextProvider>
+    </div >
   );
 }
 
